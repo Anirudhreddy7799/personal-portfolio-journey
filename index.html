@@ -11,7 +11,12 @@
 
   <body>
     <div id="root"></div>
+
+    <!-- External script linked correctly -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="./src/main.tsx"></script>
+
+    <!-- Your main JavaScript file (compiled from TypeScript) -->
+    <!-- Assume you used a tool like Webpack or Vite to compile main.tsx into main.js -->
+    <script type="module" src="./dist/main.js"></script>
   </body>
 </html>
